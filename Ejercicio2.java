@@ -4,6 +4,9 @@ public class Ejercicio2{
     //Creamos la funcion que rotara a la izquierda el arreglo
     public int[] rotarIzquierdaArray(int[] A){
         int[] aiz = new int[A.length];
+        //Modificable
+        int d = 2;
+        int aux;
         return A;
     }
 }
