@@ -12,8 +12,11 @@ public class Ejercicio2{
             aux = A[i];
             if(i - d >= 0){
                 //Debemos colocarlo al inicio
+                Aiz[i - d] = aux;
+
             }else{
                 //Lo colocamos al final
+                Aiz[A.length - d + i] = aux;
             }
         }
         return A;
