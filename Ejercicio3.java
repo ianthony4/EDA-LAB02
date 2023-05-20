@@ -7,6 +7,7 @@ public class Ejercicio3{
     res += "*";
     if(base <= 1){
       System.out.println(res);
+      return;
     }
     System.out.println(res);
     res += "*";
