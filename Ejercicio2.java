@@ -7,6 +7,10 @@ public class Ejercicio2{
         //Modificable
         int d = 2;
         int aux;
+        //for que recorra el arreglo A
+        for(int i = 0; i < A.length ; i++){
+            
+        }
         return A;
     }
 }
