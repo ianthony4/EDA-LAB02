@@ -10,7 +10,6 @@ public class Ejercicio3{
       return;
     }
     System.out.println(res);
-    res += "*";
     trianguloRecursivo(base - 1, res);
   }
 }
