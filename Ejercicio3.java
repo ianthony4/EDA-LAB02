@@ -4,10 +4,12 @@ public class Ejercicio3{
     trianguloRecursivo(base);
   }
   public static void trianguloRecursivo(int base){
-    if(base != 1){
-      System.out.println("*");
-      trianguloRecursivo(base - 1);
+    String res = "*";
+    if(base >= 1){
+      System.out.println(res);
     }
-    System.out.print("*");
+    res += "*";
+    System.out.print(res);
+    trianguloRecursivo(base - 1);
   }
 }
