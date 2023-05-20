@@ -19,6 +19,7 @@ public class Ejercicio2{
                 Aiz[A.length - d + i] = aux;
             }
         }
-        return A;
+        //Funciona
+        return Aiz;
     }
 }
