@@ -26,6 +26,12 @@ public class Ejercicio4{
         //Limpiando la lista
         numbers.clear();
         System.out.println(numbers+"\n");
+
+
+        System.out.println("Segunda parte---");
+        //Creamos nuestro nodo
+        Node<String> node = new Node<String>("A");
+        //Añadimos elementos
         
 
     }
