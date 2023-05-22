@@ -35,7 +35,7 @@ public class Ejercicio4{
         node.add("B");
         node.add("C");
         node.add("D");
-        System.out.println(node.getRoot());
-
+        System.out.println(node.getNextNode());
+        System.out.println(node.getNextNode());
     }
 }
