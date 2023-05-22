@@ -29,12 +29,13 @@ public class Ejercicio4{
 
 
         System.out.println("Segunda parte---");
-        //Creamos nuestro nodo
+        //Creamos nuestro nodoS
         Node<String> node = new Node<String>("A");
         //Añadimos elementos
         node.add("B");
         node.add("C");
         node.add("D");
+        System.out.println(node.getRoot());
 
     }
 }
