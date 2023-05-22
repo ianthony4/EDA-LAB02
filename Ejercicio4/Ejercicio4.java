@@ -14,7 +14,7 @@ public class Ejercicio4{
         System.out.println(numbers);
         //Eliminamos elementos de nuestra lista
         //Eliminamos el ultimo elemento "5"
-        numbers.remove(numbers.size());
+        numbers.remove(numbers.size()-1);
         System.out.println(numbers);
         //Comprobando si existen ciertos elementos en la lista
         boolean flag = numbers.containsAll(Arrays.asList(2,1,3));
