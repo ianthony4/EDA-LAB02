@@ -32,7 +32,9 @@ public class Ejercicio4{
         //Creamos nuestro nodo
         Node<String> node = new Node<String>("A");
         //Añadimos elementos
-        
+        node.add("B");
+        node.add("C");
+        node.add("D");
 
     }
 }
