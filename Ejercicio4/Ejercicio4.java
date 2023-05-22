@@ -19,7 +19,12 @@ public class Ejercicio4{
         //Comprobando si existen ciertos elementos en la lista
         boolean flag = numbers.containsAll(Arrays.asList(2,1,3));
         System.out.println(flag);
-        
+        //Seteando elementos de la lista
+        //Cambiando en el index 0, colocando el numero 6
+        numbers.set(0,6);
+        System.out.println(numbers);
+        //Limpiando la lista
+        numbers.clear();
 
     }
 }
