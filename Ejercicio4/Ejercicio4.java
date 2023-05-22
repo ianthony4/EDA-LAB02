@@ -25,6 +25,8 @@ public class Ejercicio4{
         System.out.println(numbers);
         //Limpiando la lista
         numbers.clear();
+        System.out.println(numbers+"\n");
+        
 
     }
 }
