@@ -19,8 +19,17 @@ public class Node<T> {
     public void add(T data){
         this.data.add(data);
     }
+    //Esta propiedad debe ir en la clase LISTA
+    //public T getRoot(){
+    //    return data.get(rootIndex);
+    //}
 
-    public T getRoot(){
-        return data.get(rootIndex);
+    //NextRoot
+    public T getNextNode() {
+        if (currentIndex < data.size()) {
+            return data.get(currentIndex++);
+        }
+        return null;
     }
+    
 }
