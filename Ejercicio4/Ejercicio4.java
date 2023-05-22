@@ -8,5 +8,9 @@ public class Ejercicio4{
         //Probaremos metodos de 'List'
         numbers.add(1);
         numbers.add(2);
+        //Añadimos varios elementos en una sola linea
+        numbers.addAll(Arrays.asList(3,4,5));
+        
+
     }
 }
