@@ -8,4 +8,19 @@ public class Node<T> {
     public Node(){
         data = new ArrayList<T>();
     }
+
+    public Node(T data){
+        this();
+        this.add(data);
+    }
+
+    //Creacion del metodo ADD para que funcione el constructor de arriba
+
+    public void add(T data){
+        this.data.add(data);
+    }
+
+    public T getRoot(){
+        return data.get(rootIndex);
+    }
 }
