@@ -10,6 +10,9 @@ public class Ejercicio4{
         numbers.add(2);
         //Añadimos varios elementos en una sola linea
         numbers.addAll(Arrays.asList(3,4,5));
+        //Eliminamos elementos de nuestra lista
+        //Eliminamos el ultimo elemento "5"
+        numbers.remove(numbers.size());
         
 
     }
